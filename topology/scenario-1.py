@@ -36,7 +36,7 @@ def topology(args):
     h6 = net.addDocker('h6', mac='00:00:00:00:00:60', ip='10.0.20.102/24', dimage="alpine-user:latest", defaultRoute='via 10.0.20.254')
     h7 = net.addDocker('h7', mac='00:00:00:00:00:70', ip='10.0.20.103/24', dimage="ddos-attack:latest", dcmd="/bin/sh -c /ddos.sh", environment={"TARGET_IP":"10.0.30.100"}, defaultRoute='via 10.0.20.254')
     h8 = net.addDocker('h8', mac='00:00:00:00:00:80', ip='10.0.20.104/24', dimage="ddos-attack:latest", dcmd="/bin/sh -c /ddos.sh", environment={"TARGET_IP":"10.0.30.100"}, defaultRoute='via 10.0.20.254')
-    h9 = net.addDocker('h9', mac='00:00:00:00:00:90', ip='200.19.190.100/24', dimage="dic_attack_ssh:latest", dcmd="/bin/sh -c /dic_attack_ssh.sh", environment={"TARGET_IP":"100.0.0.101"}, defaultRoute='via 200.19.190.254')
+    h9 = net.addDocker('h9', mac='00:00:00:00:00:90', ip='200.19.190.100/24', dimage="dic-attack-ssh:latest", dcmd="/bin/sh -c /dic_attack_ssh.sh", environment={"TARGET_IP":"100.0.0.101"}, defaultRoute='via 200.19.190.254')
 
 
     c1 = net.addController('c1')
