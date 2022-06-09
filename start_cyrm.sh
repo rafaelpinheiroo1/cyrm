@@ -55,7 +55,7 @@ fi
 mkdir -p /home/capture
 
 docker build ~/cyrm/images/blue_team_image/ -t blue-team
-docker build ~/cyrm/images/ssh_image/ -t ssh-server #mudar o nome do servidor para "servidor web"
+docker build ~/cyrm/images/ssh_image/ -t web-server
 docker build ~/cyrm/images/user_image/ -t alpine-user
 docker build ~/cyrm/images/ddos_image/ -t ddos-attack
 docker build ~/cyrm/images/dic_ssh_image/ -t dic-attack-ssh
