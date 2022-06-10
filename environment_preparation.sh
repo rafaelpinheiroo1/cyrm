@@ -1,6 +1,7 @@
 #!/bin/bash
 
-apt install curl -y
+apt update
+apt install curl openvswitch-switch -y
 
 docker_check=$(dpkg -l | grep -i docker)
 if [ -n "$docker_check" ]; then
@@ -23,11 +24,11 @@ fi
 
 mkdir -p /home/capture
 
-docker build ~/cyrm/images/blue_team_image/ -t blue-team
-docker build ~/cyrm/images/ssh_image/ -t web-server
-docker build ~/cyrm/images/user_image/ -t alpine-user
-docker build ~/cyrm/images/ddos_image/ -t ddos-attack
-docker build ~/cyrm/images/dic_ssh_image/ -t dic-attack-ssh
+docker build $(pwd)/images/blue_team_image/ -t blue-team
+docker build $(pwd)/images/ssh_image/ -t web-server
+docker build $(pwd)/images/user_image/ -t alpine-user
+docker build $(pwd)/images/ddos_image/ -t ddos-attack
+docker build $(pwd)/images/dic_ssh_image/ -t dic-attack-ssh
 
 docker pull dperson/samba
 docker pull containernet/containernet
