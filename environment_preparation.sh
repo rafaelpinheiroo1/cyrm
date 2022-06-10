@@ -20,4 +20,3 @@ docker build $(pwd)/images/dic_ssh_image/ -t dic-attack-ssh
 docker build $(pwd)/images/containernet_cyrm_image/ -t containernet-cyrm
 
 docker pull dperson/samba
-#docker pull containernet/containernet

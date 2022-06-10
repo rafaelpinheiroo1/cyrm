@@ -10,7 +10,3 @@ docker run --name containernet -it --rm --privileged --pid='host' -v /var/run/do
 
 
 
-
-
-
-
