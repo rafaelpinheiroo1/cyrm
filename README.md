@@ -11,6 +11,8 @@ A **STORAGE TECH LTDA** é uma empresa especializada em armazenamento, uma das s
 
 Segue a topologia da rede:
 
+![img]()
+
 
 <<<   INSERIRI A IMAGEM DA TOPOLOGIA    >>>
 
