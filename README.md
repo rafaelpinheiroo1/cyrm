@@ -33,6 +33,7 @@ Na **pasta x (moodle2)** contém o questionário guiado para execução do trein
 
 <<<EXPLICAR O PROCESSO PARA IMPORTAR NO MOODLE2???>>>
 
+### REQUISITO PARA USABILIDADE
 
 ### TREINAMENTO
 
@@ -90,6 +91,8 @@ Observação: Se caso o cenário travar, pressione CTRL + C para cancelar o proc
 ```
 $ sudo ./clean_cyrm.sh
 ```
+
+### DOCUMENTAÇÃO
 
 
 
