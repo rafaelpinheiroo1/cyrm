@@ -1,7 +1,9 @@
 # CyRM
 
-CyRM is a cybersecurity training framework that simplifies the training setup process through an approach that integrates training content and training environment management.
-<<< FAZER A INTRODUÇÃO >>>
+<!-- CyRM is a cybersecurity training framework that simplifies the training setup process through an approach that integrates training content and training environment management. -->
+
+CyRM é uma estrutura de treinamento de segurança cibernética que simplifica o processo de configuração do treinamento por meio de uma abordagem que integra o conteúdo do treinamento e o gerenciamento do ambiente de treinamento.
+
 
 ## Detecção, diagnóstico e mitigação de ataques em um ambiente corporativo
 
@@ -13,11 +15,9 @@ Segue a topologia da rede:
 
 ![cyrm_topology](https://user-images.githubusercontent.com/14240615/195457976-fbc519e4-2600-4dc5-8a71-537615418a08.png)
 
-<div align-"center"> 
-<img src="https://user-images.githubusercontent.com/14240615/195457976-fbc519e4-2600-4dc5-8a71-537615418a08.png" width-"7px" />
-</div>
-
-<<<   INSERIRI A IMAGEM DA TOPOLOGIA    >>>
+<!-- <div align-"center"> -->
+<!-- <img src="https://user-images.githubusercontent.com/14240615/195457976-fbc519e4-2600-4dc5-8a71-537615418a08.png" width-"7px" /> -->
+<!-- </div> -->
 
 
 A infrestrutura de rede contêm 4 VLANs (Virtual Local Area Network): **DMZ 01 (Demilitarized Zone), DMZ 02, USUÁRIOS e BLUE TEAM (suporte).**
@@ -34,11 +34,21 @@ A infrestrutura de rede contêm 4 VLANs (Virtual Local Area Network): **DMZ 01 (
 
 ### QUESTIONÁRIO GUIADO
 
-Na **pasta x (moodle2)** contém o questionário guiado para execução do treinamento contendo todas as informações necessárias, dicas, imagens  da topologia em todas as questões e são mostradas uma por página. No formato Extensible Markup Language (XML), no entanto, realize o download do arquivo no moodle ou se preferir pode criar o próprio questionário. 
+No diretório **moodle** contém o questionário guiado para execução do treinamento contendo todas as informações necessárias, dicas, imagens da topologia em todas as questões e são mostradas uma por página. No formato Extensible Markup Language (XML), no entanto, realize o download do questionário e importe no moodle ou se preferir pode criar o próprio questionário. 
 
-<<<EXPLICAR O PROCESSO PARA IMPORTAR NO MOODLE2???>>>
 
-### REQUISITO PARA USABILIDADE
+#### PROCEDIMENTO PARA IMPORTAR QUESTOES NO MOODLE
+
+1) Acesse a turma em que deseja importar o banco de questões, clique no "Menu Ações" (representado pelo ícone de engrenagem) e depois clica na opção "Mais… "
+2) Em "Banco de Questões" , clique em "Importar".
+3) Marque o formato do questionario que é em XML. (Formato Moodle XML)
+4) Posteriomente clique em "Escolha um arquivo..."
+5) Em "Enviar um arquivo" clique em "Escolher arquivo". Após selecionar o arquivo salvo no seu computador conforme o passo de Exportação clique em "Enviar este arquivo".
+6) Verifique se o formato de arquivo corresponde ao da Exportação e clique "Importar".
+7) Será exibido um relatório com as questões importadas. Clique em "Continuar".
+8) Pronto! As questões já se encontram disponíveis na turma atual, para acessá-las basta selecionar a categoria utilizada. Caso não tenha utilizado um nome especifico para categoria, as questões estarão na categoria com o nome da turma de origem.
+
+<!-- ### REQUISITO PARA USABILIDADE -->
 
 ### TREINAMENTO
 
@@ -97,7 +107,7 @@ Observação: Se caso o cenário travar, pressione CTRL + C para cancelar o proc
 $ sudo ./clean_cyrm.sh
 ```
 
-### DOCUMENTAÇÃO
+<!-- ### DOCUMENTAÇÃO -->
 
 
 
