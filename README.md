@@ -11,8 +11,11 @@ A **STORAGE TECH LTDA** é uma empresa especializada em armazenamento, uma das s
 
 Segue a topologia da rede:
 
-![img]()
+![cyrm_topology](https://user-images.githubusercontent.com/14240615/195457976-fbc519e4-2600-4dc5-8a71-537615418a08.png)
 
+<div align-"center"> 
+<img src="https://user-images.githubusercontent.com/14240615/195457976-fbc519e4-2600-4dc5-8a71-537615418a08.png" width-"7px" />
+</div>
 
 <<<   INSERIRI A IMAGEM DA TOPOLOGIA    >>>
 
